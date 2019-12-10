@@ -113,6 +113,8 @@ class Paginator implements Countable, IteratorAggregate
 
     /**
      * {@inheritdoc}
+     *
+     * @return ArrayIterator
      */
     public function getIterator()
     {
